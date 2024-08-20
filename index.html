@@ -1,18 +1,647 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Landing Page</title>
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-<!-- stylesheet -->
- <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+
+    <nav class="navbar navbar-expand-lg  bg-body-tertiary  px-lg-5 py-lg-3">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3 d-flex">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Platforms
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Widgets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Templates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+
+                </ul>
+                <div class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary">
+                            Start Free Trail
+                        </button>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- herosection -->
+    <div
+        class="hero container-xxl p-0 rounded mt-0 d-flex flex-column flex-lg-row align-items-center justify-content-between">
+        <div class="content p-4 pt-4 d-flex flex-column ps-lg-5" style="max-width: 700px">
+            <h1 class="fw-bolder display-6 mb-4">Display Instragram Stories on any website, <span
+                    style="background-color: yellow;">in seconds.</span></h1>
+            <p style="max-width: 500px;">
+                Display Instagram Stories Widget on your website, that auto-syncs, and
+                updates each time you add a photo in your active story.
+            </p>
+            <form action="" class="form-check p-0 mb-5" style="max-width: 450px;">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter your email address"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Start Free Trail</button>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item">&bull; Free 7-day trial </li>
+                    <li class="list-inline-item">&bull; Easy setup</li>
+                    <li class="list-inline-item">&bull; Cancel any time</li>
+
+                </ul>
+            </form>
+        </div>
+
+        <img src="assets/Group 1537@2x.png" class="w-50 p-3 position-relative"
+            style="min-width: 320px; max-width: 750px; top: 60px" alt="" />
+
+
+    </div>
+    <p class="text-center mt-5 pt-5">Join 50.000+ websites that use</p>
+    <div class="image d-flex justify-content-center display-2">
+        <img class="p-3" src="assets/cnnlogo.png" alt="">
+        <img class="p-3" src="assets/nationalgeologo.png" alt="">
+        <img class="p-3" src="assets/florencelogo.png" alt="">
+        <img class="p-3" src="assets/ancestrylogo.png" alt="">
+        <img class="p-3" src="assets/industriouslogo.png" alt="">
+        <img class="p-3" src="assets/nikelogo.png" alt="">
+    </div>
+
+
+    <!-- cards section -->
+    <div class="section bg-body-tertiary">
+        <h1 class="text-center fw-bolder mt-5 pt-5">Let your story live <span style="background-color: yellow;">more
+                than 24h.</span></h1>
+        <p class="text-center ">You've worked hard to create a beautiful Instagram story but it disappears in 24 hours?
+            <br>No worries, use our story saver for Instagram to bring them to life on your website.
+        </p>
+        <div class="container-xxl p-2 p-sm-5">
+            <div class="row g-0">
+                <div class="col">
+                    <div class="card p-1 border-0"
+                        style="width: 11rem; height: 9rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="assets/instagram.png" style="width: 3.5rem; height: 3.5rem;"
+                            class="card-img-top p-2 mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5">Auto Sync</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary fs-6">Instragram Stories</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 p-1"
+                        style="width: 11rem; height: 9rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="assets/facebook.png" style="width: 3.5rem; height: 3.5rem;"
+                            class="card-img-top p-2 mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5">Upload</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary fs-6">Facebook Stories</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 p-1"
+                        style="width: 11rem; height: 9rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="assets/tiktok.png" style="width: 3.5rem; height: 3.5rem;"
+                            class="card-img-top p-2 mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5">Sync</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary fs-6">Tiktok Stories</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 p-1"
+                        style="width: 11rem; height: 9rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="assets/twitter.png" style="width: 3.5rem; height: 3.5rem;"
+                            class="card-img-top p-2 mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5">Upload</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary fs-6">Twitter Fleets</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-1"
+                        style="width: 11rem; height: 9rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="assets/LI-In-Bug 1.png" style="width: 3.5rem; height: 3.5rem;"
+                            class="card-img-top p-2 mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5">Upload</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary fs-6">LinkedIn Stories</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- next cards -->
+    <section>
+        <div class="container-xxl">
+            <h1 class="text-center fw-bolder mt-5 pt-5">Double your<span style="background-color: yellow;">
+                    conversions.</span></h1>
+            <h1 class="text-center fw-bolder">Double your<span style="background-color: yellow;"> growth.</span></h1>
+            <div class="row p-2 p-sm-5">
+                <div class="col">
+                    <div class="card bg-body-tertiary border-0"
+                        style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+                        <div class="card-body ">
+                            <h5 class="card-title pb-4 fw-bolder">Brands</h5>
+                            <img src="assets/Vector.png" alt="">
+                            <p class="d-inline fw-bolder">Increases conversions</p>
+                            <p class="card-text pt-2">Enhance the visual showcase of your products with unique content
+                                making visitors convert to buyers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-body-tertiary border-0"
+                        style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4 fw-bolder">Marketers</h5>
+                            <img src="assets/clock.png" alt="">
+                            <p class="d-inline fw-bolder">Save time</p>
+                            <p class="card-text pt-2">No more re-purposing, re-cropping or re-uploading the same content
+                                from your Instagram stories to your website. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-body-tertiary border-0"
+                        style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4 fw-bolder">Web designers</h5>
+                            <img src="assets/Vector (1).png" alt="">
+                            <p class="d-inline fw-bolder">Fresh content</p>
+                            <p class="card-text pt-2">Every story you post on Instagram, it is automatically saved in
+                                your account. Auto updates you unique content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content text-center">
+            <h3 class="fw-bolder fs-5">Colvin</h3>
+            <p class="text-center fs-6">“Storytelling on another level. EmbedStories is great - it takes <br> pride of
+                place on our homepage aggregating stories from our <br>Instagram account. I highly recommend this
+                product. ”.</p>
+            <img src="assets/Rectangle 192.png" alt="">
+            <p class="d-inline fs-6 fw-bolder">Ben Calahen, COO at Clovin</p>
+        </div>
+    </section>
+
+
+    <!-- card section 3 -->
+    <section class="bg-dark">
+        <div class="container-xxl ">
+            <h1 class="text-center fw-bolder mt-5 pt-5" style="color:white;">Get started with one <br>of our templates
+            </h1>
+            <p class="text-center" style="color: white;">Start with one of our pre-designed templates. Create,
+                personalize and <br>embed the perfect widget for any page or campaign in just minutes.</p>
+            <div class="d-grid gap-2 col-3 mx-auto pt-4">
+                <button class="btn btn-primary" type="button">See templates demos</button>
+            </div>
+            <div class="row pt-5 pe-5 p-4">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Popover</h5>
+                            <p class="card-text">Showcases on every page that gives the feel of a living & breathing
+                                website. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Highlights</h5>
+                            <p class="card-text">Mimics the same functionality of the Instagram Highlights on your
+                                website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Slider</h5>
+                            <p class="card-text">Display your stories in a full slideshow layout that catches your
+                                visitors' attention. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Slider</h5>
+                            <p class="card-text">One widget with multiple stories and embed them as a full story gallery
+                                on your website. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="pt-3 mx-auto d-block pb-4" src="assets/Frame 1644.png" alt="">
+        </div>
+    </section>
+    </div>
+
+
+    <div
+        class="container-xxl  mt-5 d-flex flex-column flex-lg-row align-items-center justify-content-between p-5 bg-body-tertiary">
+        <div class="content  p-2 p-sm-4 pt-1  ps-lg-5" style="max-width: 970px">
+            <img class="mt-3 pt-3" src="assets/btn-primary-lg.png" alt="">
+            <h1 class="fw-bolder pt-3 w-75">Works with 99.9% of web platforms</h1>
+            <p class="pt-3 w-75">We integrate with tons of other apps, ecoomerce platforms or web builders. Native apps
+                are avaialble, too. </p>
+            <img src="assets/check.png" alt="">
+            <p class="d-inline">Works with any website</p>
+            <br>
+            <img src="assets/check.png" alt="">
+            <p class="d-inline">No coding required to embed</p>
+        </div>
+
+
+        <img class="w-50 p-4  position-relative" style="min-width: 320px; max-width: 550px; top: 60px"
+            src="assets/embedsocial-integrations.png" alt="">
+    </div>
+    <!-- card section 4 -->
+
+
+    <section class="bg-body-tertiary mt-5 d-flex justify-content-between">
+        <div class="content2 p-4 m-3 mt-2">
+            <h1 class="fw-bolder mt-5 pt-5">Ready to dive in?</h1>
+            <h1 class="fw-bolder">Create your widget today.</h1>
+            <p class="w-75">Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you
+                add a photo in your active story. </p>
+            <form action="" class="form-check p-0 mb-5" style="max-width: 450px;">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter your email....."
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Start Free Trail</button>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item">&bull; Free 7-day trial </li>
+                    <li class="list-inline-item">&bull; Easy setup</li>
+                    <li class="list-inline-item">&bull; Cancel any time</li>
+                </ul>
+            </form>
+        </div>
+        <div class="d-flex justify-content-end align-items-center">
+
+            <img class="" style="height:250px; width:250px;" src="assets/Rectangle 1.png" alt="">
+            <img class="" style="height:250px; width:250px;" src="assets/Rectangle 2.png" alt="">
+            <img class="" style="height:250px; width:250px;" src="assets/Rectangle 3.png" alt="">
+        </div>
+    </section>
+
+    <h1 class="text-center fw-bolder mt-5 pt-5">Other features at your service</h1>
+    <div class="container-sm mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/snyc.png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Auto Sync</h5>
+                        <p class="card-text">Sync all Instagram stories in a single click and create an widget that you
+                            can embed on any website. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/responsive.png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Responsive</h5>
+                        <p class="card-text">Mobile-friendly, fully responsive, fits on every display: tablet, mobile,
+                            or desktop. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/Frame 1504.png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Follow Button</h5>
+                        <p class="card-text">Show a Follow button with a link to Instagram account to help you drive
+                            traffic and increase followers. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/Frame 1503.png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2 "
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Unlimited widgets</h5>
+                        <p class="card-text">Create multiple widgets and embed feeds on various websites from multiple
+                            social media platforms. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-5">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/Frame 1504 (1).png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Localization</h5>
+                        <p class="card-text">Use the 10+ languages available in the platform to localize the widget for
+                            your web visitors. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/Frame 1504 (2).png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Filters (PRO)</h5>
+                        <p class="card-text">Use filters by date or keywords. Change the number of pages and post per
+                            page in your feed...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/Frame 1504 (3).png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Analytics</h5>
+                        <p class="card-text">Know which Instagram story performs best and the total clicks of the entire
+                            widget on your website.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5">
+                <div class="card border-0 w-75" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="assets/Frame 1504 (4).png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top p-2"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5 fw-bolder">Custom CSS</h5>
+                        <p class="card-text">Variety of settings, filters, and a Custom CSS editor to style your social
+                            media widget entirely. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-5">And 12 more features available in all plans...</p>
+
+        <!-- love story container -->
+        <div class="container-sm bg-dark rounded d-flex justify-content-between">
+            <div class="content">
+                <h1 class="fw-bolder mt-5 pt-5" style="color: white;">It was love at first story</h1>
+                <p class="w-50" style="color: white;">“Great plugin and amazing support. I trialed several plugins that
+                    try to accomplish the same thing. None of them did it as beautifully and as simple as EmbedStories”
+                </p>
+                <p style="color:white;">Bertha Jo, CEO at jacole</p>
+                <img src="assets/jacole.png" alt="">
+            </div>
+            <div class="images d-flex justify-content-end align-items-center"> <img src="assets/Group 1646.png" alt="">
+            </div>
+        </div>
+
+        <!-- cards container -->
+        <h1 class="text-center fw-bolder mt-5 pt-5"> Our customers love EmbedStories</h1>
+        <p class="text-center">Rated 4.8 by our customers on Facebook and Google</p>
+        <div class="row row-cols-1 row-cols-md-4 g-0 mt-5">
+            <div class="col">
+                <div class="card border-0 h-100 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Frame 74.png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top  m-3 p-1"
+                        alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">Terry Dias</h5>
+                        <p class="card-text mt-3">I just signed up for a trial and within a couple of hours had a brand
+                            new customer testimonials page built on our website as well as sliders...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 h-100 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Rectangle 195.png" style="width: 3.5rem; height: 3.5rem;"
+                        class="card-img-top  m-3 p-1" alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">James Workman</h5>
+                        <p class="card-text mt-3">Seriously impressed by Embed Social.Good job making the app so easy to
+                            use.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 h-100 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Frame 747.png" style="width: 3.5rem; height: 3.5rem;" class="card-img-top  m-3 p-1"
+                        alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">Ahmad Vaccaro</h5>
+                        <p class="card-text mt-3">Emebed Social and their services is just perfect ! It has made my
+                            business life so much easier ! 5 stars!</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 h-100 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Frame 74 (1).png" style="width: 3.5rem; height: 3.5rem;"
+                        class="card-img-top  m-3 p-1" alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">Allison Culhane</h5>
+                        <p class="card-text mt-3">Awesome products, Superior human support.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-0 mt-5">
+            <div class="col">
+                <div class="card border-0 h-100 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Frame 74 (2).png" style="width: 3.5rem; height: 3.5rem;"
+                        class="card-img-top  m-3 p-1" alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">Davis Herwitz</h5>
+                        <p class="card-text mt-3">I've been on the look out for lots of companies to do what they do, and I've never found any company who are so quick to get in touch and...p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  border-0 h-100 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Frame 74 (3).png" style="width: 3.5rem; height: 3.5rem;"
+                        class="card-img-top  m-3 p-1" alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">Jessie Grant </h5>
+                        <p class="card-text mt-3">Very impressed. 5 stars!</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card border-0  h-100 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Frame 74 (4).png" style="width: 3.5rem; height: 3.5rem;"
+                        class="card-img-top  m-3 p-1" alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">John Smith</h5>
+                        <p class="card-text mt-3">Our experience with EmbedStories is very good, very solid, loads fast, looks good.p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 w-75" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+                    <img src="assets/Rectangle 192.png" style="width: 3.5rem; height: 3.5rem;"
+                        class="card-img-top  m-3 p-1" alt="...">
+
+                    <div class="card-body">
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <img class="" style="height: 1rem; width: 1rem;" src="assets/yellow star.png" alt="" />
+                        <h5 class="card-title fw-bolder mt-3">Ben Calahen, COO at Clovin</h5>
+                        <p class="card-text mt-3">Storytelling on another level. EmbedStories is great - it takes pride of place on our homepage...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> <img class="p-1 me-2" src="assets/search.png" alt="">2 weeks
+                            ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-5">Widget powered <img style="width:1rem; height:1rem;" src="assets/Frame 1504 (4).png" alt=""> by EmbedSocial</p>
+
+    </div>
+
+
+
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <!-- js link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
